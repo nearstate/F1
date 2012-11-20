@@ -1,0 +1,8 @@
+.publish-surface label {
+	width: 10em;
+	display: block;
+	float: left;
+}
+.publish-surface section {
+	line-height: 2em;
+}

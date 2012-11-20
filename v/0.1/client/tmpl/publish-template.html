@@ -1,0 +1,15 @@
+<h3>Publish a version of this form</h3>
+<div class="publish-surface">
+	<section>
+		<label>Name</label> {{item.name}}
+	</section>
+	<section>
+		<label>Version</label> {{item.version}}
+	</section>
+</div>
+<div class="publish-surface-form form">
+	<input type="hidden" name="formId" value="{{item.name}}" />
+	<div class="actions">
+		<button data-action="form.PUBLISH">Publish</button>
+	</div>
+</div>
